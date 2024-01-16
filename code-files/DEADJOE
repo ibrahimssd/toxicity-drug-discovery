@@ -1,0 +1,13 @@
+
+*** These modified files were found in JOE when it aborted on Tue Jan 16 20:00:53 2024
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/local/home/isiddig/Desktop/uds/thesis/project-code/.git/COMMIT_EDITMSG
+/home/isiddig/Desktop/uds/thesis/drug-discovery/project-code/setup.sh
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc
