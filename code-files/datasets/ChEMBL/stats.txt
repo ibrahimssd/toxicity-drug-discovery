@@ -1,1 +1,2 @@
-
+ChEMBL ID	Output File	Number of Retrieved SMILES
+CHEMBL5095505	data.csv	33536
