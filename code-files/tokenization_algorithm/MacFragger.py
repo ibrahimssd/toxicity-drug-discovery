@@ -362,7 +362,7 @@ class MacFragGenerator:
             return list(set(fragPool.values()))
 
     
-    def write_file(self, input_file, dir, maxBlocks, maxSR, asMols, minFragAtoms, name):
+    def write_file(self, input_file, dir, maxBlocks, maxSR, asMols, minFragAtoms):
         # ... implementation ...
         non_mols = 0
         processed_mols = 0
@@ -375,7 +375,7 @@ class MacFragGenerator:
             print('Error: the input file should be .smi or .sdf file')
             
         if asMols == True:
-            out_file = dir + name+ '_fragments.sdf'
+            out_file = dir + '_fragments.sdf'
             fw = Chem.SDWriter(out_file)
             for mol in mols:
                 if mol is not None:
@@ -391,7 +391,7 @@ class MacFragGenerator:
                     print('Error: the input file contains non-mols')
             
         elif asMols == False:
-            out_file = dir + name + '_fragments.smi'
+            out_file = dir  + '_mac_fragments'
             fw = open(out_file, 'w')
             for mol in mols:
                 if mol is not None:
