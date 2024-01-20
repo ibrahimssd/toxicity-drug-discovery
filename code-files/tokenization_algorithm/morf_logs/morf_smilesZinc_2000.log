@@ -1,0 +1,37 @@
+2023-08-24 05:07:00 INFO:Reading corpus from './datasets/pre_processed/smilesZinc.smi'...
+2023-08-24 05:07:01 INFO:Detected utf-8 encoding
+2023-08-24 05:07:03 INFO:Done.
+2023-08-24 05:07:22 INFO:Compounds in training data: 249455 types / 249455 tokens
+2023-08-24 05:07:22 INFO:Starting batch training
+2023-08-24 05:07:22 INFO:Epochs: 0	Cost: 30450475.272234492
+2023-08-24 06:04:27 INFO:Number of morph types: 68644
+2023-08-24 06:04:27 INFO:Corpus weight set to 0.3333333333333333
+2023-08-24 06:04:27 INFO:Epochs: 1	Cost: 7523925.108180706
+2023-08-24 07:03:36 INFO:Number of morph types: 10347
+2023-08-24 07:03:36 INFO:Corpus weight set to 0.16666666666666666
+2023-08-24 07:03:36 INFO:Epochs: 2	Cost: 2369892.9711696766
+2023-08-24 08:04:57 INFO:Number of morph types: 5466
+2023-08-24 08:04:57 INFO:Corpus weight set to 0.1
+2023-08-24 08:04:57 INFO:Epochs: 3	Cost: 1438240.9279929139
+2023-08-24 09:07:30 INFO:Number of morph types: 3623
+2023-08-24 09:07:30 INFO:Corpus weight set to 0.06666666666666667
+2023-08-24 09:07:30 INFO:Epochs: 4	Cost: 976819.9680613236
+2023-08-24 10:11:33 INFO:Number of morph types: 2568
+2023-08-24 10:11:33 INFO:Corpus weight set to 0.047619047619047616
+2023-08-24 10:11:33 INFO:Epochs: 5	Cost: 709157.7135602476
+2023-08-24 11:16:36 INFO:Number of morph types: 1970
+2023-08-24 11:16:36 INFO:Corpus weight set to 0.06349206349206349
+2023-08-24 11:16:36 INFO:Epochs: 6	Cost: 922827.3384499666
+2023-08-24 12:21:32 INFO:Number of morph types: 2094
+2023-08-24 12:21:32 INFO:Corpus weight set to 0.04938271604938272
+2023-08-24 12:21:32 INFO:Epochs: 7	Cost: 728782.1061255096
+2023-08-24 13:26:34 INFO:Number of morph types: 1996
+2023-08-24 13:26:34 INFO:Epochs: 8	Cost: 728378.6098762181
+2023-08-24 14:31:42 INFO:Number of morph types: 1995
+2023-08-24 14:31:42 INFO:Epochs: 9	Cost: 728408.5107045823
+2023-08-24 14:31:42 INFO:Done.
+2023-08-24 14:31:42 INFO:Epochs: 9
+2023-08-24 14:31:42 INFO:Final cost: 728408.5107045823
+2023-08-24 14:31:42 INFO:Training time: 33881.888s
+2023-08-24 14:31:42 INFO:Saving model to './models/tokenizers/morfessors/morf_smilesZinc_2000.bin'...
+2023-08-24 14:31:45 INFO:Done.

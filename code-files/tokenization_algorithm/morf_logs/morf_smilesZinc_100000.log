@@ -1,0 +1,43 @@
+2023-10-03 19:56:27 INFO:Reading corpus from './datasets/pre_processed/smilesZinc.smi'...
+2023-10-03 19:56:28 INFO:Detected utf-8 encoding
+2023-10-03 19:56:30 INFO:Done.
+2023-10-03 19:56:52 INFO:Compounds in training data: 249455 types / 249455 tokens
+2023-10-03 19:56:52 INFO:Starting batch training
+2023-10-03 19:56:52 INFO:Epochs: 0	Cost: 30450475.272234492
+2023-10-03 20:55:15 INFO:Number of morph types: 69833
+2023-10-03 20:55:15 INFO:Corpus weight set to 3.0
+2023-10-03 20:55:15 INFO:Epochs: 1	Cost: 35560639.19228874
+2023-10-03 21:40:52 INFO:Number of morph types: 142295
+2023-10-03 21:40:52 INFO:Corpus weight set to 1.5
+2023-10-03 21:40:52 INFO:Epochs: 2	Cost: 21337201.404952608
+2023-10-03 22:35:26 INFO:Number of morph types: 67768
+2023-10-03 22:35:26 INFO:Corpus weight set to 2.5
+2023-10-03 22:35:26 INFO:Epochs: 3	Cost: 27794317.7245189
+2023-10-03 23:26:06 INFO:Number of morph types: 104431
+2023-10-03 23:26:06 INFO:Corpus weight set to 1.6666666666666665
+2023-10-03 23:26:06 INFO:Epochs: 4	Cost: 20518637.879741155
+2023-10-04 00:20:15 INFO:Number of morph types: 72066
+2023-10-04 00:20:15 INFO:Corpus weight set to 2.333333333333333
+2023-10-04 00:20:15 INFO:Epochs: 5	Cost: 25877923.77791251
+2023-10-04 01:11:39 INFO:Number of morph types: 94241
+2023-10-04 01:11:39 INFO:Corpus weight set to 3.1111111111111107
+2023-10-04 01:11:39 INFO:Epochs: 6	Cost: 32936876.960341763
+2023-10-04 01:58:03 INFO:Number of morph types: 132766
+2023-10-04 01:58:03 INFO:Corpus weight set to 2.419753086419753
+2023-10-04 01:58:03 INFO:Epochs: 7	Cost: 27607864.311555628
+2023-10-04 02:47:33 INFO:Number of morph types: 110965
+2023-10-04 02:47:33 INFO:Corpus weight set to 1.9358024691358027
+2023-10-04 02:47:33 INFO:Epochs: 8	Cost: 22921986.64137152
+2023-10-04 03:40:08 INFO:Number of morph types: 88831
+2023-10-04 03:40:08 INFO:Corpus weight set to 2.3659807956104255
+2023-10-04 03:40:08 INFO:Epochs: 9	Cost: 26191605.98611874
+2023-10-04 04:31:35 INFO:Number of morph types: 99991
+2023-10-04 04:31:35 INFO:Epochs: 10	Cost: 26288884.93464811
+2023-10-04 05:21:46 INFO:Number of morph types: 100676
+2023-10-04 05:21:46 INFO:Epochs: 11	Cost: 26288208.161218267
+2023-10-04 05:21:46 INFO:Done.
+2023-10-04 05:21:46 INFO:Epochs: 11
+2023-10-04 05:21:46 INFO:Final cost: 26288208.161218267
+2023-10-04 05:21:46 INFO:Training time: 33918.925s
+2023-10-04 05:21:46 INFO:Saving model to './models/tokenizers/morfessors/morf_smilesZinc_100000.bin'...
+2023-10-04 05:21:48 INFO:Done.

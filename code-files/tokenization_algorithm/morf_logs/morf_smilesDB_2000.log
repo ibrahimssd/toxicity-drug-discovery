@@ -1,0 +1,31 @@
+2023-07-23 01:23:28 INFO:Reading corpus from './datasets/cleaned_smilesDB.smi'...
+2023-07-23 01:23:29 INFO:Detected utf-8 encoding
+2023-07-23 01:23:31 INFO:Done.
+2023-07-23 01:23:53 INFO:Compounds in training data: 258716 types / 258716 tokens
+2023-07-23 01:23:53 INFO:Starting batch training
+2023-07-23 01:23:53 INFO:Epochs: 0	Cost: 31429842.088340558
+2023-07-23 02:28:55 INFO:Number of morph types: 71746
+2023-07-23 02:28:55 INFO:Corpus weight set to 0.3333333333333333
+2023-07-23 02:28:55 INFO:Epochs: 1	Cost: 7869805.508003915
+2023-07-23 03:38:54 INFO:Number of morph types: 10683
+2023-07-23 03:38:54 INFO:Corpus weight set to 0.16666666666666666
+2023-07-23 03:38:54 INFO:Epochs: 2	Cost: 2471693.309342488
+2023-07-23 04:50:36 INFO:Number of morph types: 5564
+2023-07-23 04:50:36 INFO:Corpus weight set to 0.1
+2023-07-23 04:50:36 INFO:Epochs: 3	Cost: 1497106.2889091286
+2023-07-23 06:03:36 INFO:Number of morph types: 3674
+2023-07-23 06:03:36 INFO:Corpus weight set to 0.06666666666666667
+2023-07-23 06:03:36 INFO:Epochs: 4	Cost: 1015760.6729764255
+2023-07-23 07:17:52 INFO:Number of morph types: 2621
+2023-07-23 07:17:52 INFO:Corpus weight set to 0.047619047619047616
+2023-07-23 07:17:52 INFO:Epochs: 5	Cost: 737281.6982972189
+2023-07-23 08:33:29 INFO:Number of morph types: 1988
+2023-07-23 08:33:29 INFO:Epochs: 6	Cost: 732259.8441825818
+2023-07-23 09:48:52 INFO:Number of morph types: 1988
+2023-07-23 09:48:52 INFO:Epochs: 7	Cost: 732207.9957571175
+2023-07-23 09:48:52 INFO:Done.
+2023-07-23 09:48:52 INFO:Epochs: 7
+2023-07-23 09:48:52 INFO:Final cost: 732207.9957571175
+2023-07-23 09:48:52 INFO:Training time: 30323.630s
+2023-07-23 09:48:52 INFO:Saving model to './models/tokenizers/morfessors/morf_smilesDB_2000.bin'...
+2023-07-23 09:48:55 INFO:Done.
