@@ -1,7 +1,12 @@
+# RDKit: A collection of cheminformatics and machine learning tools.
 from rdkit import Chem
+# Chem.BRICS: A module in RDKit for breaking bonds based on BRICS rules.
 from rdkit.Chem.BRICS import BreakBRICSBonds
+# RDLogger: Used to suppress RDKit warnings for cleaner output.
 from rdkit import RDLogger
+# itertools.combinations: For generating combinations of elements.
 from itertools import combinations
+# igraph: A library for creating and manipulating undirected graphs, used here to manage molecular fragments as graph components.
 from igraph import Graph
 import copy
 import argparse
@@ -9,6 +14,9 @@ import argparse
 RDLogger.DisableLog('rdApp.*')
 
 class MacFragGenerator:
+    # __init__ Method: Initializes the class with predefined chemical environments (self.environs) and reaction definitions (self.reactionDefs) 
+    # used to identify potential bonds to break in a molecule. 
+    # These are based on SMARTS patterns representing different chemical groups.
     def __init__(self):
         self.environs = {
             'L1': '[C;D3]([#0,#6,#7,#8])(=O)',  #original L1
